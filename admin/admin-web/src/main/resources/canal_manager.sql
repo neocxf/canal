@@ -104,7 +104,7 @@ SET FOREIGN_KEY_CHECKS = 1;
 -- Records of canal_user
 -- ----------------------------
 BEGIN;
-INSERT INTO `canal_user` VALUES (1, 'admin', '6BB4837EB74329105EE4568DDA7DC67ED2CA2AD9', 'Canal Manager', 'admin', NULL, NULL, '2019-07-14 00:05:28');
+INSERT INTO `canal_user` VALUES (1, 'admin', '6D45FD76D5E9C6A404E39C25106A7F032659ACB8', 'Canal Manager', 'admin', NULL, NULL, '2019-07-14 00:05:28');
 COMMIT;
 
 SET FOREIGN_KEY_CHECKS = 1;
