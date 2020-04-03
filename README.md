@@ -96,3 +96,7 @@ canal 作为 MySQL binlog 增量获取和解析工具，可将变更记录投递
 
 ## 问题反馈
 - 报告 issue: [github issues](https://github.com/alibaba/canal/issues)
+
+## 相关资料阅读
+
+- [深入解析中间件之---Canal](https://zqhxuyuan.github.io/2017/10/10/Midd-canal/)

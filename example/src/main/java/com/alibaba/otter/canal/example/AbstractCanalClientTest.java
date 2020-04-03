@@ -1,10 +1,9 @@
 package com.alibaba.otter.canal.example;
 
-import org.slf4j.MDC;
-import org.springframework.util.Assert;
-
 import com.alibaba.otter.canal.client.CanalConnector;
 import com.alibaba.otter.canal.protocol.Message;
+import org.slf4j.MDC;
+import org.springframework.util.Assert;
 
 /**
  * 测试基类
@@ -59,7 +58,6 @@ public class AbstractCanalClientTest extends BaseCanalClientTest {
             try {
                 MDC.put("destination", destination);
                 connector.connect();
-                connector.subscribe();
                 while (running) {
                     Message message = connector.getWithoutAck(batchSize); // 获取指定数量的数据
                     long batchId = message.getId();
